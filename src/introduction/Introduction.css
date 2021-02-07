@@ -1,0 +1,62 @@
+.introduction{
+    height: 588px;
+    background-color: #888290;
+    background-image: url('./imgs/teclado.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+.introduction h1
+{
+  padding-top: 60px;
+  font-family: var(--font-title);
+  font-size: 70px;
+  color: #fff;
+}
+.introduction p
+{
+  display: inline-block;
+  color: #fff;
+  font-size: 30px;
+  font-family: var(--font-text);
+  width: 434px;
+  line-height: 37px;
+}
+
+.introduction p::before
+{
+  content: '';
+  display: block;
+  width: 184px;
+  height: 3px;
+  background-color: #fff;
+  margin: 29px auto;
+  margin-top: 47px;
+}
+.introduction p::after
+{
+  content: '';
+  display: block;
+  width: 184px;
+  height: 3px;
+  background-color: #fff;
+  margin: 29px auto;
+  margin-bottom: 80px;
+}
+
+.introduction a
+{
+  color: var(--yellow);
+  text-decoration: none;
+  border: 5px solid var(--yellow);
+  padding: 10px 30px;
+  font-size: 30px;
+  font-family: var(--font-title);
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.introduction a:hover{
+  color: var(--orange);
+  border-color: var(--orange);
+}

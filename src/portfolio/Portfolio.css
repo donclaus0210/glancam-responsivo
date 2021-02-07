@@ -1,0 +1,116 @@
+.portfolio {
+  background-image: url("./imgs/disco-vinil.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  padding: 70px 0;
+  grid-gap: 0;
+  grid-template-areas:
+    "title"
+    "trabalhos"
+    "buttons"
+    "orcar";
+}
+.portfolio-title {
+  color: #fff;
+  font-family: var(--font-title);
+  font-size: 35px;
+  grid-area: title;
+  margin-bottom: 70px;
+}
+.portfolio-trabalhos{
+  display: grid;
+  align-items: center;
+  grid-template-areas: 
+  "left gallery right";
+  grid-area: trabalhos;
+  margin-bottom: 50px;
+}
+.portfolio-gallery {
+  display: grid;
+  grid-template-areas:
+    "port1 port2"
+    "port3 port4";
+  grid-gap: 20px;
+  justify-content: center;
+  align-items: center;
+  max-width: 1000px;
+  grid-area: gallery;
+}
+.portfolio-left-arrow {
+  grid-area: left;
+}
+.portfolio-right-arrow {
+  grid-area: right;
+}
+.arrow:hover{
+  -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
+  transition: all 0.5s;
+}
+.portfolio-image-1 {
+  grid-area: port1;
+}
+.portfolio-image-1 img {
+  height: 264px;
+  width: 490px;
+}
+.portfolio-image-2 {
+  grid-area: port2;
+}
+.portfolio-image-2 img {
+  height: 264px;
+  width: 490px;
+}
+.portfolio-image-3 {
+  grid-area: port3;
+}
+.portfolio-image-3 img {
+  height: 264px;
+  width: 490px;
+}
+.portfolio-image-4 {
+  grid-area: port4;
+}
+.portfolio-image-4 img {
+  height: 264px;
+  width: 490px;
+}
+
+.portfolio-buttons {
+  margin-bottom: 60px;
+  grid-area: buttons;
+}
+.portfolio-buttons button {
+  padding: 9px;
+  background-color: inherit;
+  border: 2px solid black;
+  border-radius: 20px;
+  margin: 0 5px;
+}
+.portfolio-buttons .portfolio-btn-ativo {
+  background-color: var(--yellow);
+}
+.portfolio-buttons button:hover {
+  background-color: var(--yellow);
+}
+.portfolio-orcar {
+  grid-area: orcar;
+}
+.portfolio-orcar a{
+  color: var(--yellow);
+  text-decoration: none;
+  font-family: var(--font-title);
+  font-size: 30px;
+  border: 5px solid var(--yellow);
+  padding: 10px 50px;
+}
+.portfolio-orcar a:hover{
+  color: var(--orange);
+  border-color: var(--orange);
+}

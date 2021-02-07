@@ -1,0 +1,71 @@
+.contato{
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    padding: 70px 0;
+    grid-template-areas: 
+    "title title"
+    "map contatos"
+    "orcar orcar";
+}
+
+.contato-title{
+    font-family: var(--font-title);
+    font-size: 35px;
+    margin-bottom: 70px;
+    grid-area: title;
+}
+
+.contato-map{
+    grid-area: map;
+    width: 600px;
+}
+
+.contato-contatos{
+    display: grid;
+    grid-template-areas: 
+    "title"
+    "item1"
+    "item2"
+    "item3"
+    "item4";
+    grid-area: contatos;
+}
+.contato-logo img{
+    width: 360px;
+    height: auto;
+}
+.contato-item{
+    display: flex;
+    align-items: center;
+    margin: 20px 50px;
+}
+.contato-item img{
+    height: 50px;
+    width: 50px;
+}
+.contato-item a{
+    margin-left: 30px;
+    font-family: var(--font-text);
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+}
+.contato-orcar{
+    margin-top: 70px;
+    grid-area: orcar;
+}
+.contato-orcar a{
+    color: var(--orange);
+    text-decoration: none;
+    border: 5px solid var(--orange);
+    padding: 10px 80px;
+    font-size: 30px;
+    font-family: var(--font-title);
+
+}
+.contato-orcar a:hover{
+    color: var(--yellow);
+    border-color: var(--yellow);
+}

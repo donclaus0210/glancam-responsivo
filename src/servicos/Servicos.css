@@ -1,0 +1,61 @@
+.servicos{
+    text-align: center;
+}
+.servicos h1{
+  margin-top: 70px;
+  margin-bottom: 70px;
+  font-family: var(--font-title);
+  font-size: 35px;
+}
+.servicos h2{
+    margin: 20px 0;
+    margin-bottom: 40px;
+    font-family: var(--font-text);
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.servicos-carroussel{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.servicos-carroussel .servico img{
+    width: 220px;
+    height: 168px;
+    margin: 0 35px;
+}
+
+.servicos-buttons{
+    margin-bottom: 60px;
+}
+.servicos-buttons button{
+    padding: 9px;
+    background-color: inherit;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 0 5px;
+}
+.servicos-buttons .servicos-btn-ativo{
+    background-color: var(--orange);
+}
+.servicos-buttons button:hover{
+    background-color: var(--orange);
+}
+
+.servicos-saiba-mais{
+    margin-bottom: 70px;
+}
+.servicos-saiba-mais a{
+    color: var(--orange);
+    text-decoration: none;
+    border: 5px solid var(--orange);
+    padding: 10px 80px;
+    font-size: 30px;
+    font-family: var(--font-title);
+}
+.servicos-saiba-mais a:hover{
+    color: var(--yellow);
+    border-color: var(--yellow);
+}

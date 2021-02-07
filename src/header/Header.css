@@ -1,0 +1,39 @@
+/*CONTAINER DO HEADER*/
+
+.header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: var(--gray);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/*LOGO DO HEADER*/
+
+.header-logo {
+  margin-left: 50px;
+}
+.header-logo img {
+  height: 150px;
+}
+
+/*MENU DO HEADER*/
+
+.header-menu {
+  margin-right: 50px;
+}
+.header-menu nav {
+  justify-content: right;
+}
+.header-menu nav a {
+  font-family: var(--font-title);
+  margin-left: 50px;
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+}
+.header-menu nav a:hover {
+  text-decoration: underline;
+}
