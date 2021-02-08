@@ -89,3 +89,16 @@
     padding: 20px 0;
     text-align: center;
 }
+@media (max-width:1225px){
+    .footer-1{
+        grid-template-areas: 
+        "sobre"
+        "redes";
+    }
+    .footer-sobre{
+        margin: 0;
+    }
+    .footer-redes-sociais{
+        margin: 50px 0 0 110px;
+    }
+}

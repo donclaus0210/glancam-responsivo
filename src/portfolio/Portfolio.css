@@ -114,3 +114,12 @@
   color: var(--orange);
   border-color: var(--orange);
 }
+@media (max-width:1225px){
+  .portfolio-gallery {
+    grid-template-areas:
+    "port1" 
+    "port2"
+    "port3"
+    "port4";
+  }
+}
