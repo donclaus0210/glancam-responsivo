@@ -6,6 +6,8 @@ import Introduction from './introduction/Introduction'
 import Servicos from './servicos/Servicos'
 import Portfolio from './portfolio/Portfolio'
 import Contato from './contato/Contato'
+import Slogan from './slogan/Slogan'
+import Footer from './footer/Footer'
 
 ReactDOM.render(
   <React.StrictMode>
@@ -14,6 +16,8 @@ ReactDOM.render(
     <Servicos/>
     <Portfolio/>
     <Contato/>
+    <Slogan/>
+    <Footer/>
   </React.StrictMode>,
   document.getElementById('root')
 );

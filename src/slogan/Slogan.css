@@ -1,0 +1,24 @@
+.slogan{
+    background-image: url('./imgs/lamparina.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    height: 415px;
+}
+.slogan div h3{
+    font-family: var(--font-title);
+    font-size: 45px;
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.slogan div h4{
+    font-family: var(--font-text);
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}

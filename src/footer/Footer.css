@@ -1,0 +1,91 @@
+.footer{
+    background-color: var(--gray);
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    padding-top: 70px;
+    width: 100%;
+}
+.footer-1{
+    width: 1100px;
+    display: grid;
+    grid-template-areas: 
+    "sobre redes";
+    justify-content: center;
+    align-content: flex-start;
+    margin-bottom: 70px;
+}
+.footer-sobre{
+    width: 568px;
+    grid-area: sobre;
+    margin-left: -400px;
+}
+.footer-sobre img{
+    width: 404px;
+}
+.footer-sobre p{
+    font-family: var(--font-text);
+    font-size: 1.625em;
+    color: white;
+    margin: 50px 0 70px 0;
+}
+.footer-sobre a{
+    color: var(--yellow);
+    text-decoration: none;
+    font-family: var(--font-title);
+    font-size: 30px;
+    border: 5px solid var(--yellow);
+    padding: 10px 50px;
+}
+.footer-sobre a:hover{
+    color: var(--orange);
+    border-color: var(--orange);
+}
+
+.footer-redes-sociais{
+    display: grid;
+    grid-template-areas:
+    "title title title"
+    "linkedin whatsapp facebook"
+    "instagram github telegram";
+    width: 40px;
+    margin-left: 50px;
+}
+.footer-redes-title{
+    grid-area: title;
+    margin: 10px 0 50px 0;
+}
+.footer-redes-title h2{
+    color: white;
+    font-family: var(--font-title);
+    font-size: 35px;
+}
+.footer-item1 {
+    grid-area: linkedin;
+}
+.footer-item2 {
+    grid-area: whatsapp;
+}
+.footer-item3 {
+    grid-area: facebook;
+}
+.footer-item4 {
+    grid-area: instagram;
+}
+.footer-item5 {
+    grid-area: github;
+}
+.footer-item6 {
+    grid-area: telegram;
+}
+
+.footer-redes-sociais div img{
+    height: 72px;
+    width: 72px;
+    margin: 20px;
+}
+.copy{
+    background-color: var(--back-color);
+    padding: 20px 0;
+    text-align: center;
+}
